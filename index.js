@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Notus Owns Me And All", 
+details : "Details", // details, like description change it whatever you want
 assets : {
-large_image : "nw",
-large_text : "NotusNetwork" // Dışarıdan bu şekilde görünecek "Oynuyor <Status>" 
+large_image : "YourLargeImageKey", // your large image key, take this on discord developer page
+large_text : "YourPlayingStatus" // it will look like "Playing <Status>" 
 },
-buttons : [{label : "Discord" , url : "https://discord.gg/ywTtdJpFJR"}]
+buttons : [{label : "Button1" , url : "Button1's Url"}],{label : "Github Source", url : "https://github.com/Luxotick/DiscordRichPresence"}] // Button on the discord rpc, you can change the name and the url.
 }
 })
 })
-client.login({ clientId : "809089108861386772" }).catch(console.error); 
+client.login({ clientId : "YourClientID on developer page" }).catch(console.error); 
