@@ -9,7 +9,7 @@ assets : {
 large_image : "YourLargeImageKey", // your large image key, take this on discord developer page
 large_text : "YourPlayingStatus" // it will look like "Playing <Status>" 
 },
-buttons : [{label : "Button1" , url : "Button1's Url"}],{label : "Github Source", url : "https://github.com/Luxotick/DiscordRichPresence"}] // Button on the discord rpc, you can change the name and the url.
+buttons : [{label : "Button1" , url : "Button1's Url"},{label : "Github Source", url : "https://github.com/Luxotick/DiscordRichPresence"}] // Button on the discord rpc, you can change the name and the url.
 }
 })
 })
